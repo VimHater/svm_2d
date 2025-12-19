@@ -9,11 +9,11 @@
 
 Sử dụng `sklearn.linear_model.SGDClassifier` với `loss='hinge'` để huấn luyện một Suport vector machine tuyến tính. Đối với tập dữ liệu 3 chiều, siêu phẳng(hyperplane) là một mặt phẳng:
 ```
-w1*x + w2*y + w3*z + b = 0
+w1*x + w2*y + b = 0
 ```
 Trong đó:
-*   `x`, `y`, `z` là tọa độ của một điểm trong không gian 3D.
-*   `w1`, `w2`, `w3` là các thành phần của vectơ weight(`w`) cho x, y và z tương ứng.
+*   `x`, `y`là tọa độ của một điểm trong không gian 3D.
+*   `w1`, `w2` là các thành phần của vectơ weight(`w`) cho x, y và z tương ứng.
 *   `b` là bias.
 
 ## Quá trình huấn luyện (SGD với Hinge Loss)
